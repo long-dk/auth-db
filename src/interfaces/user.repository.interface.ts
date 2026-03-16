@@ -2,7 +2,7 @@ import { User, Role } from "../../generated/prisma/client";
 import { PaginatedResult, QueryOptions } from "./base.interface";
 
 export type { User };
-export type { Role };
+export { Role };
 export interface CreateUserInput {
   email: string;
   password?: string;
