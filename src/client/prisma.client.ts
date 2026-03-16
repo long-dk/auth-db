@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from "../../generated/prisma/client";
 import { IAuthDbManager } from "../interfaces/db-manager.interface";
 import { IUserRepository } from "../interfaces/user.repository.interface";
 import { UserRepository } from "../repositories/user.repository";

@@ -1,4 +1,4 @@
-import { User } from "@prisma/client";
+import { User } from "../../generated/prisma/client";
 import { PaginatedResult, QueryOptions } from "./base.interface";
 
 export type { User };
