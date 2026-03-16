@@ -1,13 +1,8 @@
-import { User } from "../../generated/prisma/client";
+import { User, Role } from "../../generated/prisma/client";
 import { PaginatedResult, QueryOptions } from "./base.interface";
 
 export type { User };
-
-export enum Role {
-  ADMIN = "ADMIN",
-  USER = "USER",
-}
-
+export type { Role };
 export interface CreateUserInput {
   email: string;
   password?: string;
